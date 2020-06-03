@@ -1,0 +1,19 @@
+Introdução: 
+Uma agenda simples para o dia a dia.
+
+Objetivo: 
+Ajudar na organização de compromissos e a não se esquecer deles.
+
+Descrição do usuário: 
+Voltado principalmente para quem tem a agenda cheia e precisa ter 
+uma forma fácil de controlar isso, exemplo empresário que precisa 
+comparecer em muitas reuniões.
+
+Funcionalidades:
+A agenda terá as seguintes funções em que o usuário preencherá, 
+Nome do compromisso, Dia, Hora, Prioridade do compromisso e por 
+fim se ela foi a ele.
+ 
+Requisitos não funcionais:
+Linguagem C# em Visual Studio, aplicativo web asp.net framework 
+com banco de dados SqlServer.
