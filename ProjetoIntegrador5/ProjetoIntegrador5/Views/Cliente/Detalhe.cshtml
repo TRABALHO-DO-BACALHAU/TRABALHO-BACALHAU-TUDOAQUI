@@ -1,0 +1,77 @@
+﻿@model ProjetoIntegrador5.Models.Cliente
+
+@{
+    ViewBag.Title = "Detalhe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalhe</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeCompromisso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeCompromisso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CriacaoDoCompromisso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CriacaoDoCompromisso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Prioridade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prioridade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    
+    <div>
+        <a href="@Url.Action("Index","Cliente")" class="btn btn-info"> Voltar</a>
+    </div>
+</p>
