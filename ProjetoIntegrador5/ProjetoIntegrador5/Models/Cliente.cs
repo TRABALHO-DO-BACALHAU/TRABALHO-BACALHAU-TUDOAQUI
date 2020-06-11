@@ -16,7 +16,8 @@ namespace ProjetoIntegrador5.Models
             public int ClienteID { get; set; }
 
             [MaxLength(100)]
-            [Column("Nome", TypeName = "VARCHAR")]
+            [Display(Name = "Nome do Cliente")]
+            [Column("Nome Do Cliente", TypeName = "VARCHAR")]
             [Required(ErrorMessage = "O campo nome e obrigatorio!!!")]
             public string Nome { get; set; }
 
@@ -44,6 +45,8 @@ namespace ProjetoIntegrador5.Models
            [Display(Name = "Compromisso Concluido?")]
            
            public  bool Status { get; set; }
+
+          public ICollection<Compromisso> ListaCompromissos { get; set; }
 
     }
 }

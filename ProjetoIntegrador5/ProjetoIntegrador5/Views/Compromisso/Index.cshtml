@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ProjetoIntegrador5.Models.Compromisso>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="col text-right">
+    @Html.ActionLink("Adicionar novo Compromisso", "Novo", "Novo", new { @class = "btn btn-info" })
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Compromissos)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Compromissos)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.CompromissoID }) |
+            @Html.ActionLink("Detalhar", "Detalhe", new { id=item.CompromissoID }) |
+            @Html.ActionLink("Excluir", "Excluir", new { id=item.CompromissoID })
+        </td>
+    </tr>
+}
+
+</table>

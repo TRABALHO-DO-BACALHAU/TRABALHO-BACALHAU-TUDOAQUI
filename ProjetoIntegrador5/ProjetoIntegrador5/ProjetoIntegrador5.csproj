@@ -136,14 +136,21 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Context\DataContext.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\CompromissoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Dao\ClienteDao.cs" />
+    <Compile Include="Dao\CompromissoDao.cs" />
     <Compile Include="Dao\DaoBase.cs" />
+    <Compile Include="Dao\PrioridadeDao.cs" />
+    <Compile Include="Dao\StatusDao.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Compromisso.cs" />
+    <Compile Include="Models\Prioridade.cs" />
+    <Compile Include="Models\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +192,10 @@
     <Content Include="Views\Cliente\Novo.cshtml" />
     <Content Include="Views\Cliente\Detalhe.cshtml" />
     <Content Include="Views\Cliente\Editar.cshtml" />
+    <Content Include="Views\Compromisso\Index.cshtml" />
+    <Content Include="Views\Compromisso\Novo.cshtml" />
+    <Content Include="Views\Compromisso\Detalhe.cshtml" />
+    <Content Include="Views\Compromisso\Editar.cshtml" />
     <Content Include="Views\Cliente\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
