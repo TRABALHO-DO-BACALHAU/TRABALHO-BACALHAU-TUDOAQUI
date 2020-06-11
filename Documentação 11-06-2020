@@ -1,0 +1,13 @@
+Documentação Projeto Agendamento de Tarefas
+11/06/2020
+Introdução
+Objetivo: A Agenda de tarefas tem um como um simples objetivo de ajudar no dia a dia de que tem muitos compromissos.
+Escopo: Usuário ira colocar seu nome, telefone, nome do compromisso, descrição, data do compromisso, prioridade do compromisso e se ele já foi realizado ou não.
+Descrição do Usuário: Temos como um exemplo claro um empresário que tem muitas vezes varias reuniões ou compromissos em um mesmo dia.
+Requisito Funcional: O sistema agendará todos os compromissos do usuário.
+Requisito Não Funcional: O sistema deverá rodar em multiplataformas. 
+Usará como banco de dados principal o SQL Server.
+O sistema foi feito em Visual Studio usando a Linguagem C# e Web ASP.NET Framework.
+
+No momento o sistema conta com uma classe “Cliente” com todo o Crud usando o padrão MVC.
+Sistema está responsivo se adaptando a resolução do usuário.
