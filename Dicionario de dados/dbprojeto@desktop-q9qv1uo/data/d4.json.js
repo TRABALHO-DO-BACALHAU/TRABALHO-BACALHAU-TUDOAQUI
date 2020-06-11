@@ -1,0 +1,1 @@
+window.repositoryObject = {"object_id":"d4","name":"DbProjeto@DESKTOP-Q9QV1UO","description":null,"summary":[{"field":"Host","value":"DESKTOP-Q9QV1UO"},{"field":"Database","value":"DbProjeto"},{"field":"DBMS","value":"SQL Server"}],"modules":[],"dbObjects":[{"count":5,"id":"d4t","name":"Tables"}]};
