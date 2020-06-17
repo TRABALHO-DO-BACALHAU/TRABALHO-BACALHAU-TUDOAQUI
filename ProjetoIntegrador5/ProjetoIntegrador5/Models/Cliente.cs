@@ -18,7 +18,7 @@ namespace ProjetoIntegrador5.Models
             [MaxLength(100)]
             [Display(Name = "Nome do Cliente")]
             [Column("Nome Do Cliente", TypeName = "VARCHAR")]
-            [Required(ErrorMessage = "O campo nome e obrigatorio!!!")]
+            [Required(ErrorMessage = "O campo nome e obrigatorio")]
             public string Nome { get; set; }
 
             [MaxLength(15)]
